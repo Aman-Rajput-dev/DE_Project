@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#upld{
+    font-family: 'Press Start 2P', cursive;  
+    font-size: 24px;
+    /* letter-spacing: 3px; */
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+.content{
+    width:70%;
+    height:auto;
+    margin: 100px auto 0 auto;
+}
+.srcdest{
+    background-color: #282443;
+    height:80px;
+    width:600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.header p {
+    /* border:1px solid black; */
+    padding:10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.1s linear,color 0.125s linear,transform 0.6s;
+}
+
+.header p:hover{
+    background-color: #fbd16d;
+    color:white;
+    cursor: pointer;
+    box-shadow: 0px 0px 31px -1px rgba(250,208,118,1);
+    transform: scale(1.2);   
+}
+
+.dis{
+    font-size: 13px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.pur{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(40, 36, 67);
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+.adv{
+    margin-top: 0;
+    margin-bottom: 0%;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(40, 36, 67);
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.bst{
+    font-size: 16px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.yllw{
+    color:#ffcb36;
+}
+body{
+    background: url("bk.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:0px 20px;
+    background-color:rgb(254, 249, 232);
+}
+.icon{
+    width: 40px;
+    height:40px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 125px;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    align-content: center;
+    width:600px;
+}
+.square{
+    width:40px;
+    height:40px;
+    border: white solid 1px; 
+     border-radius: 13px;
+     box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.582);
+}
+
+.location{
+    width:40px;
+    height:40px;
+    /* margin: 5px 5px; */
+}
+
+.inputform{
+    /* border-radius:20px; */
+    background: #282443;
+    color: #ffcb36;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width:170px;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Sono', sans-serif ;
+}
+.inputform:focus{
+    outline: none;
+}
+input[type="text"]::placeholder{
+    text-align: center;
+    color:#ffc936b2;
+    font-family:'Sono', sans-serif ;
+}
+.searchicon{
+    width:40px;
+    height: 40px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

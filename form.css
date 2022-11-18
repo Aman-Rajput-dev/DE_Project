@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background: url("orange2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    width:65%;
+    height:auto;
+    border-radius: 40px;
+    margin: 40px auto;
+    border:1px solid white;
+    box-shadow: 2px 2px 9px 4px rgb(0 0 0 / 40%);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.heading p{
+    margin-top: 4px;
+    
+}
+.line{
+    width:30%;
+    height:9px;
+    border-radius: 10px;
+    background-color: black;
+}
+.formsrcdest{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:100%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    justify-content: space-between;
+}
+form{
+    padding:30px;
+}
+.srcdest{
+    border-radius: 9px;
+    border: 3px solid rgba(0, 0, 0, 0.486);
+    height: 25px;
+    width: 200px;
+}
+.srcdest1{
+    border-radius: 9px;
+    border: 3px solid rgba(0, 0, 0, 0.486);
+    height: 25px;
+    width: 400px;
+}
+.srclabel{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive ;
+}
+.formsrcdest div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap:10px
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    margin:10px 0;
+}
+textarea{
+    border-radius: 9px;
+    border: 3px solid rgba(0, 0, 0, 0.486);
+}
+.txtara1{
+    height:100px;
+}
+.txtara2{
+    height:300px;
+}
+.sub{
+    width:100%;
+    height:50px;
+    border-radius: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.486);
+    background-color: #146acc;
+    color:white;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive ;
+    cursor: pointer;
+    margin:30px 0;
+    transition: background-color linear 0.2s;
+}
+.sub:hover{
+    background-color: rgb(20, 105, 12);
+}
